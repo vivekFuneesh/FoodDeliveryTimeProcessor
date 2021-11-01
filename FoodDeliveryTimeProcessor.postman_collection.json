@@ -1,0 +1,201 @@
+{
+	"info": {
+		"_postman_id": "25439d40-f58b-4c3e-8f59-a074c5e2b5e8",
+		"name": "FoodDeliveryTimeProcessor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/v1/food/delivery/time/calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"orderId\":12,\n\t\"listOfMeals\":[\n\t\t\"A\", \"A\"\n\t\t],\n\t\"distanceFromRest\":5\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/food/delivery/time/calculate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"food",
+						"delivery",
+						"time",
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/food/delivery/time/calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"orderId\":21,\n\t\"listOfMeals\":[\n\t\t\"A\", \"M\"\n\t\t],\n\t\"distanceFromRest\":1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/food/delivery/time/calculate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"food",
+						"delivery",
+						"time",
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/food/delivery/time/calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"orderId\":32,\n\t\"listOfMeals\":[\n\t\t\"M\"\n\t\t],\n\t\"distanceFromRest\":0.1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/food/delivery/time/calculate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"food",
+						"delivery",
+						"time",
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/food/delivery/time/calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"orderId\":14,\n\t\"listOfMeals\":[\n\t\t\"M\",\"M\",\"M\",\"M\",\"A\",\"A\",\"A\"\n\t\t],\n\t\"distanceFromRest\":10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/food/delivery/time/calculate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"food",
+						"delivery",
+						"time",
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/food/delivery/time/calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"orderId\":22,\n\t\"listOfMeals\":[\n\t\t\"A\"\n\t\t],\n\t\"distanceFromRest\":3\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/food/delivery/time/calculate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"food",
+						"delivery",
+						"time",
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/v1/food/delivery/time/calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"orderId\":92,\n\t\"listOfMeals\":[\n\t\t\"A\", \"M\"\n\t\t],\n\t\"distanceFromRest\":7\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/food/delivery/time/calculate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"food",
+						"delivery",
+						"time",
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
