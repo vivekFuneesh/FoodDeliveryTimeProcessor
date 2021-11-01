@@ -31,7 +31,6 @@ public class TimeCalculatorImpl implements TimeCalculator {
 	 * */
 	@Override
 	public ResponseEntity<DeliveryTimeProcessResponse> calculateFeasibility(DeliveryTimeProcessRequest request) {
-		System.out.println(orderQueue);
 		DeliveryTimeProcessResponse result;
 		double maxTime=0;
 		int cookingSlotConsumed=0;
