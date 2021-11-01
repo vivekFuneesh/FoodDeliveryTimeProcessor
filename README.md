@@ -1,5 +1,5 @@
 # FoodDeliveryTimeProcessor
-A time-calculator/processing API for food delivery
+A time-calculator/processing API for food delivery under GPL v3 License.
 
 For a given restaurant, input will come in format of JSON as :: <br>
 [ orderID, listOfMeals, DistanceFromRest ] <br>
